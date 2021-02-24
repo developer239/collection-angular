@@ -4,6 +4,9 @@
   "author": "michaljarnot <m.jarnot@yahoo.com>",
   "license": "MIT",
   "scripts": {
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:version": "lerna version",
+    "lerna:publish": "lerna publish from-package",
     "format": "prettier --write '*/**/*.{ts,scss,md,json}'",
     "lint:ts": "eslint --ext .ts packages",
     "lint:css": "stylelint 'packages/**/*.scss' --syntax scss"
