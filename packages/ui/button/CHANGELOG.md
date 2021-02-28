@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/developer239/collection-angular/compare/@collection-ui/button@0.1.1...@collection-ui/button@0.1.2) (2021-02-28)
+
+
+### Bug Fixes
+
+* set publish access to public ([3560702](https://github.com/developer239/collection-angular/commit/356070207464d81da17c2cda54fb5191b6de8b16))
+
+
+
+
+
 ## [0.1.1](https://github.com/developer239/collection-angular/compare/@collection-ui/button@0.1.0...@collection-ui/button@0.1.1) (2021-02-28)
 
 
