@@ -1,0 +1,18 @@
+<button
+  [disabled]="isDisabled"
+  [type]="type"
+  [ngClass]="{
+    button: true,
+    'button--smaller': isSmaller,
+    'button--disabled': isDisabled
+  }"
+  [routerLink]="uri"
+  [attr.aria-label]="label"
+>
+  <span class="content" *ngIf="!isLoading; else loading">
+    <ng-content></ng-content>
+  </span>
+  <ng-template #loading>
+    <app-spinner [size]="size"></app-spinner>
+  </ng-template>
+</button>

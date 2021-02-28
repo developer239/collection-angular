@@ -1,0 +1,32 @@
+:host {
+  appearance: none;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24rem;
+  height: 5.7rem;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 3.2rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+
+  &--disabled {
+    cursor: not-allowed;
+  }
+
+  &--smaller {
+    width: 10rem;
+    height: 3.2rem;
+    font-size: 1.4rem;
+  }
+}
