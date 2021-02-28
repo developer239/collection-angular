@@ -1,6 +1,6 @@
 {
-  "name": "collection-angular",
-  "repository": "https://github.com/developer239/collection-angular.git",
+  "name": "angular-collections",
+  "repository": "https://github.com/developer239/angular-collections.git",
   "author": "michaljarnot <m.jarnot@yahoo.com>",
   "license": "MIT",
   "scripts": {

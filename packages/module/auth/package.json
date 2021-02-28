@@ -1,5 +1,5 @@
 {
-  "name": "@collection-angular-module/auth",
+  "name": "@collection-module/auth",
   "version": "0.0.1",
   "scripts": {
     "build": "ng build module-auth"
