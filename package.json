@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "lerna:bootstrap": "lerna bootstrap",
-    "lerna:version": "lerna version --contents dist",
+    "lerna:version": "lerna version",
     "lerna:publish": "lerna publish from-package --contents dist",
     "lerna:build": "rm -rf .dist && lerna run build -- --prod",
     "format": "prettier --write '*/**/*.{ts,scss,md,json}'",
