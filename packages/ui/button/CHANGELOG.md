@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/developer239/collection-angular/compare/@collection-ui/button@0.1.2...@collection-ui/button@0.2.0) (2021-02-28)
+
+
+### Features
+
+* make auth dependent on button ([60ed0b8](https://github.com/developer239/collection-angular/commit/60ed0b876b78122e0611146b299c8a2b3a63ba14))
+
+
+
+
+
 ## [0.1.2](https://github.com/developer239/collection-angular/compare/@collection-ui/button@0.1.1...@collection-ui/button@0.1.2) (2021-02-28)
 
 
