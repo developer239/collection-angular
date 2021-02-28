@@ -5,7 +5,9 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSources": true,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
@@ -20,12 +22,16 @@
     "esModuleInterop": true,
     "paths": {
       "@collection-angular/ui/*": ["packages/ui/*/dist"],
-      "@collection-angular/module/*": ["packages/ui/*/dist"]
+      "@collection-angular/module/*": ["packages/ui/*/dist"],
+      "button": ["dist/button/button", "dist/button"]
     }
   },
   "angularCompilerOptions": {
     "types": ["node"],
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    "strictInjectionParameters": true,
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "enableResourceInlining": true
   }
 }

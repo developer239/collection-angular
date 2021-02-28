@@ -3,10 +3,6 @@ const components = require('@linters/eslint-config-angular/components')
 const templates = require('@linters/eslint-config-angular/templates')
 
 module.exports = {
-  root: true,
-  env: {
-    es6: true,
-  },
   overrides: [{
     ...typescript,
     extends: [
@@ -14,4 +10,5 @@ module.exports = {
       '@linters/eslint-config-jest'
     ]
   }, components, templates],
+  ignorePatterns: ['lib'],
 }

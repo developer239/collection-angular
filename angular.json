@@ -3,5 +3,43 @@
   "version": 1,
   "newProjectRoot": "packages",
   "projects": {
-  }
+    "button": {
+      "projectType": "library",
+      "root": "packages/ui/button",
+      "sourceRoot": "packages/ui/button/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "packages/ui/button/tsconfig.lib.json",
+            "project": "packages/ui/button/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/ui/button/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {
+            "modulePathIgnorePatterns": ["dist/"],
+            "testTimeout": 10000,
+            "coverageReporters": ["json-summary", "text", "lcov"]
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/ui/button/**/*.ts",
+              "packages/ui/button/**/*.component.html"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "button"
 }
