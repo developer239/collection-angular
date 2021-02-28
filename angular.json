@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "packages",
   "projects": {
-    "button": {
+    "ui-button": {
       "projectType": "library",
       "root": "packages/ui/button",
       "sourceRoot": "packages/ui/button/src",
@@ -40,6 +40,5 @@
         }
       }
     }
-  },
-  "defaultProject": "button"
+  }
 }

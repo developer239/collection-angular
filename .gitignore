@@ -1,6 +1,7 @@
 .idea/
 .vscode/
 
+dist
 node_modules
 packages/ui/*/node_modules/
 packages/module/*/node_modules/

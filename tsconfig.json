@@ -22,8 +22,8 @@
     "esModuleInterop": true,
     "preserveSymlinks": true,
     "paths": {
-      "@collection-angular/ui/*": ["packages/ui/*/dist"],
-      "@collection-angular/module/*": ["packages/ui/*/dist"],
+      "@collection-angular-ui/*": ["packages/ui/*/dist"],
+      "@collection-angular-module/*": ["packages/ui/*/dist"],
       "button": ["dist/button/button", "dist/button"]
     }
   },

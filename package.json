@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "lerna:bootstrap": "lerna bootstrap",
-    "lerna:version": "lerna version",
-    "lerna:publish": "lerna publish from-package",
-    "lerna:build": "lerna exec -- npm run build",
+    "lerna:version": "lerna version --contents dist",
+    "lerna:publish": "lerna publish from-package --contents dist",
+    "lerna:build": "rm -rf .dist && lerna run build",
     "format": "prettier --write '*/**/*.{ts,scss,md,json}'",
     "lint:ts": "ng lint",
     "lint:css": "stylelint 'packages/**/*.scss' --syntax scss",
