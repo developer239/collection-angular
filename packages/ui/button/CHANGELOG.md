@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/developer239/collection-angular/compare/@collection-ui/button@0.1.0...@collection-ui/button@0.1.1) (2021-02-28)
+
+
+### Bug Fixes
+
+* build inside module folders ([c182195](https://github.com/developer239/collection-angular/commit/c18219563f4ce7908cd0e5a4a3ea9d3ece920cd0))
+
+
+
+
+
 # 0.1.0 (2021-02-28)
 
 
