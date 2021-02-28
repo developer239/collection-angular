@@ -22,9 +22,8 @@
     "esModuleInterop": true,
     "preserveSymlinks": true,
     "paths": {
-      "@collection-ui/*": ["packages/ui/*/src/public-api.ts"],
-      "@collection-module/*": ["packages/ui/*/src/public-api.ts"],
-      "auth": ["dist/auth/auth", "dist/auth"]
+      "@collection-module/*": ["packages/module/*/dist"],
+      "@collection-ui/*": ["packages/ui/*/dist"]
     }
   },
   "angularCompilerOptions": {

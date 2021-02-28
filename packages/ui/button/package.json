@@ -13,5 +13,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "main": "src/public-api.ts"
 }
