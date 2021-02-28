@@ -23,7 +23,8 @@
     "preserveSymlinks": true,
     "paths": {
       "@collection-angular-ui/*": ["packages/ui/*/src/public-api.ts"],
-      "@collection-angular-module/*": ["packages/ui/*/src/public-api.ts"]
+      "@collection-angular-module/*": ["packages/ui/*/src/public-api.ts"],
+      "auth": ["dist/auth/auth", "dist/auth"]
     }
   },
   "angularCompilerOptions": {

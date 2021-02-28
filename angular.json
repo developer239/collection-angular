@@ -39,6 +39,43 @@
           }
         }
       }
+    },
+    "module-auth": {
+      "projectType": "library",
+      "root": "packages/module/auth",
+      "sourceRoot": "packages/module/auth/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "packages/module/auth/tsconfig.lib.json",
+            "project": "packages/module/auth/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/module/auth/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {
+            "modulePathIgnorePatterns": ["dist/"],
+            "testTimeout": 10000,
+            "coverageReporters": ["json-summary", "text", "lcov"]
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/module/auth/**/*.ts",
+              "packages/module/auth/**/*.component.html"
+            ]
+          }
+        }
+      }
     }
   }
 }
