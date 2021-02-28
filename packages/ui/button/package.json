@@ -1,6 +1,9 @@
 {
   "name": "@collection-angular/ui-button",
   "version": "0.0.1",
+  "scripts": {
+    "build": "ng build button"
+  },
   "peerDependencies": {
     "@angular/common": "^11.2.3",
     "@angular/core": "^11.2.3"

@@ -20,6 +20,7 @@
     "strictPropertyInitialization": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "preserveSymlinks": true,
     "paths": {
       "@collection-angular/ui/*": ["packages/ui/*/dist"],
       "@collection-angular/module/*": ["packages/ui/*/dist"],
