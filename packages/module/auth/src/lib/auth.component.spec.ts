@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing'
-
+import { ButtonModule } from '@collection-ui/button'
 import { AuthComponent } from './auth.component'
 
 describe('AuthComponent', () => {
@@ -9,6 +9,7 @@ describe('AuthComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [AuthComponent],
+      imports: [ButtonModule],
     }).compileComponents()
   })
 
