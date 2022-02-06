@@ -1,6 +1,6 @@
 {
   "name": "@collection-module/auth",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "scripts": {
     "build": "ng build module-auth"
   },
@@ -9,7 +9,7 @@
     "@angular/core": ">=13.0.0"
   },
   "dependencies": {
-    "@collection-ui/button": "^0.4.0",
+    "@collection-ui/button": "^0.5.0",
     "tslib": "^2.0.0"
   },
   "publishConfig": {

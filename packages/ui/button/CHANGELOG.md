@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/developer239/collection-angular/compare/@collection-ui/button@0.4.0...@collection-ui/button@0.5.0) (2022-02-06)
+
+
+### Features
+
+* create api module ([57ec254](https://github.com/developer239/collection-angular/commit/57ec2547c031b82299fdb8966fa40c81d9b41ab8))
+
+
+
+
+
 # [0.4.0](https://github.com/developer239/collection-angular/compare/@collection-ui/button@0.3.0...@collection-ui/button@0.4.0) (2022-02-06)
 
 
