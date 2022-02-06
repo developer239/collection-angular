@@ -76,6 +76,43 @@
           }
         }
       }
+    },
+    "module-core": {
+      "projectType": "library",
+      "root": "packages/module/core",
+      "sourceRoot": "packages/module/core/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "packages/module/core/tsconfig.lib.json",
+            "project": "packages/module/core/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/module/core/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {
+            "modulePathIgnorePatterns": ["dist/"],
+            "testTimeout": 10000,
+            "coverageReporters": ["json-summary", "text", "lcov"]
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/module/core/**/*.ts",
+              "packages/module/core/**/*.component.html"
+            ]
+          }
+        }
+      }
     }
   }
 }
