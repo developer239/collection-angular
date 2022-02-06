@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/developer239/collection-angular/compare/@collection-ui/button@0.5.1...@collection-ui/button@0.8.0) (2022-02-06)
+
+
+### Features
+
+* enable Ivy ([bbb404b](https://github.com/developer239/collection-angular/commit/bbb404b186d9d18991190cca377cb1502f288887))
+
+
+
+
+
 ## [0.5.1](https://github.com/developer239/collection-angular/compare/@collection-ui/button@0.5.0...@collection-ui/button@0.5.1) (2022-02-06)
 
 

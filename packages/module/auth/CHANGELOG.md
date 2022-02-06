@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/developer239/collection-angular/compare/@collection-module/auth@0.4.2...@collection-module/auth@0.5.0) (2022-02-06)
+
+
+### Features
+
+* enable Ivy ([bbb404b](https://github.com/developer239/collection-angular/commit/bbb404b186d9d18991190cca377cb1502f288887))
+
+
+
+
+
 ## [0.4.2](https://github.com/developer239/collection-angular/compare/@collection-module/auth@0.4.1...@collection-module/auth@0.4.2) (2022-02-06)
 
 **Note:** Version bump only for package @collection-module/auth
