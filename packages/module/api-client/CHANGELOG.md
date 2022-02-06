@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/developer239/collection-angular/compare/@collection-module/api-client@0.3.2...@collection-module/api-client@0.4.0) (2022-02-06)
+
+
+### Features
+
+* add documentation ([66c2e90](https://github.com/developer239/collection-angular/commit/66c2e90dac71d21b146678243e80c0f3a8ad92bf))
+
+
+
+
+
 ## [0.3.2](https://github.com/developer239/collection-angular/compare/@collection-module/api-client@0.2.1...@collection-module/api-client@0.3.2) (2022-02-06)
 
 
