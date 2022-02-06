@@ -11,7 +11,9 @@
     "format": "prettier --write '*/**/*.{ts,scss,md,json}'",
     "lint:ts": "ng lint",
     "lint:css": "stylelint 'packages/**/*.scss'",
-    "test": "ng test"
+    "test": "ng test",
+    "fix:node_modules": "lerna exec -- rm -rf node_modules",
+    "fix:lockfiles": "npm run fix:node_modules && npm run lerna:bootstrap"
   },
   "devDependencies": {
     "@angular-builders/jest": "13.0.3",

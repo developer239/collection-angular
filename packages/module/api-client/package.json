@@ -1,0 +1,20 @@
+{
+  "name": "@collection-module/api-client",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "ng build module-core"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=13.0.0",
+    "@angular/core": ">=13.0.0",
+    "rxjs": ">=7.4.0",
+    "tslib": ">=2.0.0"
+  },
+  "devDependencies": {
+    "tslib": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "src/public-api.ts"
+}

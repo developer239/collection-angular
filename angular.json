@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "packages/ui/button",
       "sourceRoot": "packages/ui/button/src",
-      "prefix": "ui-button",
+      "prefix": "ui",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -79,7 +79,7 @@
       "projectType": "library",
       "root": "packages/module/core",
       "sourceRoot": "packages/module/core/src",
-      "prefix": "lib",
+      "prefix": "module-core",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -106,6 +106,42 @@
             "lintFilePatterns": [
               "packages/module/core/**/*.ts",
               "packages/module/core/**/*.component.html"
+            ]
+          }
+        }
+      }
+    },
+    "module-api-client": {
+      "projectType": "library",
+      "root": "packages/module/api-client",
+      "sourceRoot": "packages/module/api-client/src",
+      "prefix": "api-client",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "packages/module/api-client/tsconfig.lib.json",
+            "project": "packages/module/api-client/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/module/api-client/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {
+            "modulePathIgnorePatterns": ["dist/"],
+            "coverageReporters": ["json-summary", "text", "lcov"]
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/module/api-client/**/*.ts",
+              "packages/module/api-client/**/*.component.html"
             ]
           }
         }
