@@ -1,0 +1,5 @@
+export * from './lib/operators/remove-item.operator'
+export * from './lib/operators/update-item.operator'
+export * from './lib/operators/types'
+export * from './lib/operators/utils'
+export * from './lib/app-state.module'

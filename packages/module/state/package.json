@@ -1,0 +1,28 @@
+{
+  "name": "@collection-module/state",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "ng build module-state"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=13.0.0",
+    "@angular/core": ">=13.0.0",
+    "tslib": ">=2.0.0"
+  },
+  "devDependencies": {
+    "tslib": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "src/public-api.ts",
+  "dependencies": {
+    "@ngxs-labs/dispatch-decorator": "^3.1.0",
+    "@ngxs-labs/select-snapshot": "^3.0.0",
+    "@ngxs/devtools-plugin": "^3.7.3",
+    "@ngxs/router-plugin": "^3.7.3",
+    "@ngxs/storage-plugin": "^3.7.3",
+    "@ngxs/store": "^3.7.3",
+    "ngxs-reset-plugin": "^2.0.0"
+  }
+}
