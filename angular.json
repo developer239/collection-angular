@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "packages/ui/button",
       "sourceRoot": "packages/ui/button/src",
-      "prefix": "lib",
+      "prefix": "ui-button",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -25,7 +25,6 @@
           "builder": "@angular-builders/jest:run",
           "options": {
             "modulePathIgnorePatterns": ["dist/"],
-            "testTimeout": 10000,
             "coverageReporters": ["json-summary", "text", "lcov"]
           }
         },
@@ -44,7 +43,7 @@
       "projectType": "library",
       "root": "packages/module/auth",
       "sourceRoot": "packages/module/auth/src",
-      "prefix": "lib",
+      "prefix": "module-auth",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -62,7 +61,6 @@
           "builder": "@angular-builders/jest:run",
           "options": {
             "modulePathIgnorePatterns": ["dist/"],
-            "testTimeout": 10000,
             "coverageReporters": ["json-summary", "text", "lcov"]
           }
         },
@@ -99,7 +97,6 @@
           "builder": "@angular-builders/jest:run",
           "options": {
             "modulePathIgnorePatterns": ["dist/"],
-            "testTimeout": 10000,
             "coverageReporters": ["json-summary", "text", "lcov"]
           }
         },

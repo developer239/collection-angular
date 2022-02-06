@@ -1,9 +1,9 @@
 import { Component } from '@angular/core'
 
 @Component({
-  selector: 'lib-auth',
+  selector: 'module-auth-component',
   template: ` <p>auth works!</p>
-    <lib-button></lib-button>`,
+    <ui-button></ui-button>`,
   styles: [],
 })
 export class AuthComponent {}

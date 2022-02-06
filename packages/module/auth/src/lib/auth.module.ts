@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core'
-import { AuthComponent } from './auth.component'
 import { ButtonModule } from '@collection-ui/button'
+import { AuthComponent } from './auth.component'
 
 @NgModule({
   declarations: [AuthComponent],

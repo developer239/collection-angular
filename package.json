@@ -10,7 +10,7 @@
     "lerna:build": "lerna run build -- --prod",
     "format": "prettier --write '*/**/*.{ts,scss,md,json}'",
     "lint:ts": "ng lint",
-    "lint:css": "stylelint 'packages/**/*.scss' --syntax scss",
+    "lint:css": "stylelint 'packages/**/*.scss'",
     "test": "ng test"
   },
   "devDependencies": {

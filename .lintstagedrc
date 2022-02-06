@@ -1,6 +1,6 @@
 {
   "*.{css,scss}": [
-    "stylelint --syntax scss --fix",
+    "stylelint --fix",
     "prettier --write"
   ],
   "*.{html,ts,md,json}": [
