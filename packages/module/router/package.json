@@ -1,0 +1,30 @@
+{
+  "name": "@collection-module/router",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "ng build module-router"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=13.0.0",
+    "@angular/core": ">=13.0.0",
+    "@angular/router": ">=13.0.0",
+    "@ngxs-labs/dispatch-decorator": ">=3.0.0",
+    "@ngxs-labs/select-snapshot": ">=3.0.0",
+    "@ngxs/router-plugin": ">=3.7.0",
+    "@ngxs/store": ">=3.7.0",
+    "rxjs": ">=7.4.0",
+    "tslib": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@angular/router": "^13.2.1",
+    "@ngxs-labs/dispatch-decorator": "^3.1.0",
+    "@ngxs-labs/select-snapshot": "^3.0.0",
+    "@ngxs/router-plugin": "^3.7.3",
+    "@ngxs/store": "^3.7.3",
+    "tslib": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "src/public-api.ts"
+}

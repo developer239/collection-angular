@@ -146,6 +146,42 @@
           }
         }
       }
+    },
+    "module-router": {
+      "projectType": "library",
+      "root": "packages/module/router",
+      "sourceRoot": "packages/module/router/src",
+      "prefix": "router",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "packages/module/router/tsconfig.lib.json",
+            "project": "packages/module/router/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/module/router/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {
+            "modulePathIgnorePatterns": ["dist/"],
+            "coverageReporters": ["json-summary", "text", "lcov"]
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/module/router/**/*.ts",
+              "packages/module/router/**/*.component.html"
+            ]
+          }
+        }
+      }
     }
   }
 }
