@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@collection-ui/button@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@collection-ui/button/-/button-0.5.1.tgz#c3f0ec803db6b1db50a6639b1fd469b2e7b835cd"
+  integrity sha512-pwR8rHGcf5I5hBKHEgJr7J2fSefa8oY0jK40g12CT4T6SL8RUsRUnqPuO76+8Ef+UvOJ3xAp6e61biMW85tZGg==
+  dependencies:
+    tslib "^2.0.0"
+
 tslib@^2.0.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
