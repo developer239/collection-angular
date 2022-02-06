@@ -6,11 +6,11 @@ Collection of shareable modules for your [Angular](https://github.com/angular/an
 
 ## Available Packages
 
-| Tool   | Package                                                      | Version                                                      |
-| ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Module | [@collection-angular/core](packages/module/core)             | [![@collection-angular/environment][core]][core]             |
-| Module | [@collection-angular/api-client](packages/module/api-client) | [![@collection-angular/environment][api-client]][api-client] |
-| Module | [@collection-angular/router](packages/module/router)         | [![@collection-angular/environment][router]][router]         |
+| Tool   | Package                                                     | Version                                                     |
+| ------ | ----------------------------------------------------------- | ----------------------------------------------------------- |
+| Module | [@collection-module/core](packages/module/core)             | [![@collection-module/environment][core]][core]             |
+| Module | [@collection-module/api-client](packages/module/api-client) | [![@collection-module/environment][api-client]][api-client] |
+| Module | [@collection-module/router](packages/module/router)         | [![@collection-module/environment][router]][router]         |
 
 [core]: https://badge.fury.io/js/@collection-angular%2Fcore.svg
 [core]: https://badge.fury.io/js/@collection-angular%2Fcore
