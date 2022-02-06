@@ -2,7 +2,7 @@
   "name": "@collection-module/api-client",
   "version": "0.0.1",
   "scripts": {
-    "build": "ng build module-core"
+    "build": "ng build module-api-client"
   },
   "peerDependencies": {
     "@angular/common": ">=13.0.0",
