@@ -2705,17 +2705,18 @@
   resolved "https://registry.yarnpkg.com/@linters/prettier-config/-/prettier-config-1.3.2.tgz#8f757f298fdbf6e816195be63d9ddaf26c94534a"
   integrity sha512-eewK0kzTds+PzZmr1prnTfure1aTTgzOt9qJZPyTBRbov6Ml7rpWGehvzsaAOlNQM+MQIB9CnHlSWF6v84mqng==
 
-"@linters/stylelint-config@^1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@linters/stylelint-config/-/stylelint-config-1.4.2.tgz#79ae22ef735e24475d694c3c3e8b4e2444141e4b"
-  integrity sha512-+icb4yqguQ9kPEaleMx1STiR3b7VfPTT/k5IT+nLNxItV9FDZhWzbuIgl8OjmMMCV9oOKbbaLnFf3KDuJvrAiA==
+"@linters/stylelint-config@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@linters/stylelint-config/-/stylelint-config-1.5.0.tgz#082441c810ad5519466d43572e5dab2ce2dbce9e"
+  integrity sha512-/m+BXB+u7nwEhXlrC/Vz4s/PhZuJEdzEnB/a5CSB13swYb+2Qd3mu67IeKD1kSCJI9iEO8ZYP+7eczO549VFwg==
 
-"@linters/stylelint-scss-config@1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@linters/stylelint-scss-config/-/stylelint-scss-config-1.6.0.tgz#8b457efebb8c17e2c0c3ebd45f71c0ba2af64f04"
-  integrity sha512-iqqjKTirbIWosFyRMzLXvwR8F3l6qOgKJB9AFOZMD91SJhjyk0cGaiG3nw3XX/QZ/yfIwKtCj8PJ47UQRwJUSQ==
+"@linters/stylelint-scss-config@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@linters/stylelint-scss-config/-/stylelint-scss-config-1.7.0.tgz#2a37e0a24b2929520ee3735e8f0e1256f79ebff4"
+  integrity sha512-RS8N63igpXX+CW4cZZow74BM9SN+9XkjH1YTbvywk3GKh5bHThPYIqUYBQxLNnQVLGsz/CljPftGTHAg9IhjXg==
   dependencies:
-    "@linters/stylelint-config" "^1.4.2"
+    "@linters/stylelint-config" "^1.5.0"
+    postcss-scss "^4.0.3"
     stylelint-config-rational-order "0.1.2"
     stylelint-scss "4.1.0"
 
@@ -11372,6 +11373,11 @@ postcss-scss@^2.0.0:
   integrity sha512-jQmGnj0hSGLd9RscFw9LyuSVAa5Bl1/KBPqG1NQw9w8ND55nY4ZEsdlVuYJvLPpV+y0nwTV5v/4rHPzZRihQbA==
   dependencies:
     postcss "^7.0.6"
+
+postcss-scss@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-4.0.3.tgz#36c23c19a804274e722e83a54d20b838ab4767ac"
+  integrity sha512-j4KxzWovfdHsyxwl1BxkUal/O4uirvHgdzMKS1aWJBAV0qh2qj5qAZqpeBfVUYGWv+4iK9Az7SPyZ4fyNju1uA==
 
 postcss-selector-not@^5.0.0:
   version "5.0.0"
