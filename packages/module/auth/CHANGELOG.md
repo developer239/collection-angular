@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/developer239/collection-angular/compare/@collection-module/auth@0.2.1...@collection-module/auth@0.3.0) (2022-02-06)
+
+
+### Features
+
+* update dependencies ([c2fd63c](https://github.com/developer239/collection-angular/commit/c2fd63c91286f493baf6a8e4f21b9270ebe21766))
+
+
+
+
+
 ## [0.2.1](https://github.com/developer239/collection-angular/compare/@collection-module/auth@0.2.0...@collection-module/auth@0.2.1) (2021-02-28)
 
 **Note:** Version bump only for package @collection-module/auth
