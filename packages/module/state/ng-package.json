@@ -4,5 +4,13 @@
   "lib": {
     "entryFile": "src/public-api.ts"
   },
-  "allowedNonPeerDependencies": []
+  "allowedNonPeerDependencies": [
+    "@ngxs-labs/dispatch-decorator",
+    "@ngxs-labs/select-snapshot",
+    "@ngxs/devtools-plugin",
+    "@ngxs/router-plugin",
+    "@ngxs/storage-plugin",
+    "@ngxs/store",
+    "ngxs-reset-plugin"
+  ]
 }
