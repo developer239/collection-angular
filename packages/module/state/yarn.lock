@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@angular/router@^13.2.1":
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-13.2.1.tgz#d0cbe8d1068330cf75d4602267d52579a708e47f"
+  integrity sha512-+UkzW1ODV8GgL2ft6eMmJKYl4rqw6iwh3y5IEenF52X8zmnjjR0/ts/86FmaCfnpaE5S6hwnsopin9LBYVbVTQ==
+  dependencies:
+    tslib "^2.3.0"
+
 "@ngxs-labs/dispatch-decorator@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@ngxs-labs/dispatch-decorator/-/dispatch-decorator-3.1.0.tgz#9c3f5e26fe747bb21802c5fbbf21b9b7a4e54d32"
